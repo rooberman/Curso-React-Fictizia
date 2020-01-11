@@ -13,6 +13,7 @@ import ListItem from './ListItem';
 import Enlace from './Enlace';
 import Loading from './Loaging';
 import Parent from './Parent';
+import Contador from './Contador';
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
 
         <Parent />
 
+        <Contador />
 
       </header>
     </div>
