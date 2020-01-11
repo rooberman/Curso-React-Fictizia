@@ -16,6 +16,8 @@ import Parent from './Parent';
 import Contador from './Contador';
 import ContadorString from './ContadorString';
 import ContadorPadre from './ContadorPadre';
+import TestUsers from './TestUsers';
+import Interruptor from './Interruptor';
 
 function App() {
   return (
@@ -40,6 +42,7 @@ function App() {
         <Enlace texto="React Docs" link="https://reactjs.org/" openInNewTab />
         */}
 
+        {/*
         <Loading show>
           <Title titulo="Necesito partir en componentes todo esto" />
           <Texto contenido="Para ello puedo usar React que me permitirá poder reutilizar todos esos componentes. Para ello tengo que:" />
@@ -58,6 +61,9 @@ function App() {
         <ContadorString />
 
         <ContadorPadre />
+        */}
+
+        <Interruptor />
 
       </header>
     </div>
