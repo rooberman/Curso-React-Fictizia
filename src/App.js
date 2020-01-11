@@ -14,6 +14,8 @@ import Enlace from './Enlace';
 import Loading from './Loaging';
 import Parent from './Parent';
 import Contador from './Contador';
+import ContadorString from './ContadorString';
+import ContadorPadre from './ContadorPadre';
 
 function App() {
   return (
@@ -52,6 +54,10 @@ function App() {
         <Parent />
 
         <Contador />
+
+        <ContadorString />
+
+        <ContadorPadre />
 
       </header>
     </div>
