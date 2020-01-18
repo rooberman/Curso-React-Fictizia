@@ -24,6 +24,7 @@ import InputEvent from './eventos/InputEvent';
 import SelectEvent from './eventos/SelectEvent';
 import SesionTest from './conditionalRender/SesionTest';
 import ListContainer from './lists/ListContainer';
+import SelectComponentTest from './formularios/SelectComponentTest';
 
 function App() {
   return (
@@ -91,7 +92,11 @@ function App() {
         <SesionTest />
         */}
 
+        {/*
         <ListContainer />
+        */}
+
+        <SelectComponentTest />
 
       </header>
     </div>
