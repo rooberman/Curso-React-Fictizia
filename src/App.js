@@ -18,6 +18,10 @@ import ContadorString from './ContadorString';
 import ContadorPadre from './ContadorPadre';
 import TestUsers from './TestUsers';
 import Interruptor from './Interruptor';
+import LifecyclePetition from './LifecyclePetition';
+import LifecyclePetitionOnDemand from './LifecyclePetitionOnDemand';
+import InputEvent from './eventos/InputEvent';
+import SelectEvent from './eventos/SelectEvent';
 
 function App() {
   return (
@@ -63,7 +67,25 @@ function App() {
         <ContadorPadre />
         */}
 
+        {/*
         <Interruptor />
+        */}
+
+        {/*
+        <LifecyclePetition />
+        */}
+
+        {/*
+        <LifecyclePetitionOnDemand />
+        */}
+
+        {/*
+        <InputEvent />
+
+        <SelectEvent />
+        */}
+
+        
 
       </header>
     </div>
