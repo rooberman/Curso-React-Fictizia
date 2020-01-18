@@ -22,6 +22,8 @@ import LifecyclePetition from './LifecyclePetition';
 import LifecyclePetitionOnDemand from './LifecyclePetitionOnDemand';
 import InputEvent from './eventos/InputEvent';
 import SelectEvent from './eventos/SelectEvent';
+import SesionTest from './conditionalRender/SesionTest';
+import ListContainer from './lists/ListContainer';
 
 function App() {
   return (
@@ -85,7 +87,11 @@ function App() {
         <SelectEvent />
         */}
 
-        
+        {/*
+        <SesionTest />
+        */}
+
+        <ListContainer />
 
       </header>
     </div>
