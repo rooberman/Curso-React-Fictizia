@@ -27,6 +27,7 @@ import ListContainer from "./7-lists/ListContainer";
 import SelectComponentTest from "./8-formularios/SelectComponentTest";
 import Father from "./9-subiendoestado/Father";
 import Shop from "./10-EjercicioFinal/Shop";
+import FormRef from "./11-FormsRef/FormRef";
 
 function App() {
     return (
@@ -114,7 +115,11 @@ function App() {
                 <Father />
                 */}
 
+                {/*}
                 <Shop />
+                */}
+
+                <FormRef />
 
             </header>
         </div>
