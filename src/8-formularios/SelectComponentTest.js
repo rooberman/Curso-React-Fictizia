@@ -1,5 +1,6 @@
 import React from 'react'
 import SelectComponent from './SelectComponent'
+import FormComponent from './FormComponent'
 
 class SelectComponentTest extends React.Component {
 
@@ -18,7 +19,10 @@ class SelectComponentTest extends React.Component {
     render() {
         return (
             <>
+            {/*
             <SelectComponent items={this.state.items} onChange={this.cambio} />
+            */}
+            <FormComponent />
             </>
         );
     }
