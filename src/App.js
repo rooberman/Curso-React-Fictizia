@@ -26,6 +26,7 @@ import SesionTest from "./6-conditionalRender/SesionTest";
 import ListContainer from "./7-lists/ListContainer";
 import SelectComponentTest from "./8-formularios/SelectComponentTest";
 import Father from "./9-subiendoestado/Father";
+import Shop from "./10-EjercicioFinal/Shop";
 
 function App() {
     return (
@@ -109,8 +110,12 @@ function App() {
                 <SelectComponentTest />
                 */}
 
+                {/*
                 <Father />
-                
+                */}
+
+                <Shop />
+
             </header>
         </div>
     );
