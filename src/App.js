@@ -28,6 +28,7 @@ import SelectComponentTest from "./8-formularios/SelectComponentTest";
 import Father from "./9-subiendoestado/Father";
 import Shop from "./10-EjercicioFinal/Shop";
 import FormRef from "./11-FormsRef/FormRef";
+import MainHoc from "./12-hoc/MainHoc";
 
 function App() {
     return (
@@ -119,7 +120,11 @@ function App() {
                 <Shop />
                 */}
 
+                {/*
                 <FormRef />
+                */}
+
+                <MainHoc />
 
             </header>
         </div>
