@@ -30,6 +30,7 @@ import Shop from "./10-EjercicioFinal/Shop";
 import FormRef from "./11-FormsRef/FormRef";
 import MainHoc from "./12-hoc/MainHoc";
 import ShowServerConfig from "./13-PropTypes/ShowServerConfig";
+import Main from "./14-hooks/Main";
 
 function App() {
     return (
@@ -129,6 +130,7 @@ function App() {
                 <MainHoc />
                 */}
 
+                {/*
                 <ShowServerConfig 
                     config={{ minConnections: 4, maxConnections: 10, restartAlways: true }}
                     environment='dev'
@@ -141,6 +143,9 @@ function App() {
                     ssl={false}
                     ssl2
                 />
+                */}
+
+                <Main />
 
             </header>
         </div>
