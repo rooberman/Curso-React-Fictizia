@@ -29,6 +29,7 @@ import Father from "./9-subiendoestado/Father";
 import Shop from "./10-EjercicioFinal/Shop";
 import FormRef from "./11-FormsRef/FormRef";
 import MainHoc from "./12-hoc/MainHoc";
+import ShowServerConfig from "./13-PropTypes/ShowServerConfig";
 
 function App() {
     return (
@@ -124,7 +125,22 @@ function App() {
                 <FormRef />
                 */}
 
+                {/*
                 <MainHoc />
+                */}
+
+                <ShowServerConfig 
+                    config={{ minConnections: 4, maxConnections: 10, restartAlways: true }}
+                    environment='dev'
+                    ssl={false}
+                />
+
+                <ShowServerConfig 
+                    config={{ minConnections: 4, maxConnections: 10, restartAlways: true }}
+                    environment='live'
+                    ssl={false}
+                    ssl2
+                />
 
             </header>
         </div>
