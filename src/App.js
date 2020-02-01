@@ -31,6 +31,7 @@ import FormRef from "./11-FormsRef/FormRef";
 import MainHoc from "./12-hoc/MainHoc";
 import ShowServerConfig from "./13-PropTypes/ShowServerConfig";
 import Main from "./14-hooks/Main";
+import Lazy from './15-LazySuspense/Lazy';
 
 function App() {
     return (
@@ -145,7 +146,11 @@ function App() {
                 />
                 */}
 
+                {/*
                 <Main />
+                */}
+
+                <Lazy />
 
             </header>
         </div>
