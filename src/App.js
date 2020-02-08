@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Greeting from "./1-render/Greeting";
@@ -32,8 +32,14 @@ import MainHoc from "./12-hoc/MainHoc";
 import ShowServerConfig from "./13-PropTypes/ShowServerConfig";
 import Main from "./14-hooks/Main";
 import Lazy from './15-LazySuspense/Lazy';
+import LanguajeContext from './16-ReactContext/LanguajeContext';
+import Header from "./16-ReactContext/Header";
+import Content from './16-ReactContext/Content';
 
 function App() {
+
+    const [languaje, setLanguaje] = useState('es')
+
     return (
         <div className="App">
             <header className="App-header">
@@ -150,7 +156,17 @@ function App() {
                 <Main />
                 */}
 
+                {/*
                 <Lazy />
+                */}
+
+                <LanguajeContext.Provider value={{
+                    languaje: languaje,
+                    setLanguaje: (languaje => setLanguaje(languaje))
+                }}>
+                    <Header />
+                    <Content />
+                </LanguajeContext.Provider>
 
             </header>
         </div>
