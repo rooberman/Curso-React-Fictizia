@@ -35,6 +35,7 @@ import Lazy from './15-LazySuspense/Lazy';
 import LanguajeContext from './16-ReactContext/LanguajeContext';
 import Header from "./16-ReactContext/Header";
 import Content from './16-ReactContext/Content';
+import RouterContent from "./17-ReactRouter/RouterContent";
 
 function App() {
 
@@ -160,6 +161,7 @@ function App() {
                 <Lazy />
                 */}
 
+                {/*
                 <LanguajeContext.Provider value={{
                     languaje: languaje,
                     setLanguaje: (languaje => setLanguaje(languaje))
@@ -167,6 +169,9 @@ function App() {
                     <Header />
                     <Content />
                 </LanguajeContext.Provider>
+                */}
+
+                <RouterContent />
 
             </header>
         </div>
