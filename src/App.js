@@ -37,6 +37,7 @@ import Header from "./16-ReactContext/Header";
 import Content from './16-ReactContext/Content';
 //import RouterContent from "./17-ReactRouter/RouterContent";
 import RouterContent from "./18-MaterialUI/RouterContent";
+import Styles from "./19-StyledComponents/Styles";
 
 function App() {
 
@@ -176,7 +177,11 @@ function App() {
                 <RouterContent />
                 */}
 
+                {/*
                 <RouterContent />
+                */}
+
+                <Styles />
 
             </header>
         </div>
