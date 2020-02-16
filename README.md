@@ -1,4 +1,7 @@
 Ejercios prácticos del [curso React de Fictizia](https://github.com/zamarrowski/Curso-React-Redux).
+
+En App.js hay bloques comentados para ejecutar los diferentes ejercicios del curso que están organizados por carpetas.
+
 Ejercicio final del curso: [fictagram](https://github.com/rooberman/fictagram)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
