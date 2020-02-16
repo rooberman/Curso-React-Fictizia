@@ -1,4 +1,5 @@
 Ejercios prácticos del [curso React de Fictizia](https://github.com/zamarrowski/Curso-React-Redux).
+Ejercicio final del curso: [fictagram](https://github.com/rooberman/fictagram)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
