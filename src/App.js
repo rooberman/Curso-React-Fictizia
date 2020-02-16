@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Greeting from "./1-render/Greeting";
@@ -31,23 +31,22 @@ import FormRef from "./11-FormsRef/FormRef";
 import MainHoc from "./12-hoc/MainHoc";
 import ShowServerConfig from "./13-PropTypes/ShowServerConfig";
 import Main from "./14-hooks/Main";
-import Lazy from './15-LazySuspense/Lazy';
-import LanguajeContext from './16-ReactContext/LanguajeContext';
+import Lazy from "./15-LazySuspense/Lazy";
+import LanguajeContext from "./16-ReactContext/LanguajeContext";
 import Header from "./16-ReactContext/Header";
-import Content from './16-ReactContext/Content';
+import Content from "./16-ReactContext/Content";
 //import RouterContent from "./17-ReactRouter/RouterContent";
 import RouterContent from "./18-MaterialUI/RouterContent";
 import Styles from "./19-StyledComponents/Styles";
 
 function App() {
-
-    const [languaje, setLanguaje] = useState('es')
+    const [languaje, setLanguaje] = useState("es");
 
     return (
         <div className="App">
             <header className="App-header">
-                {/*
                 <Greeting />
+                {/*
                 <ShowName />
                 <ShowDate />
                 <ShowMessage />
@@ -184,9 +183,6 @@ function App() {
                 {/*
                 <Styles />
                 */}
-
-                
-
             </header>
         </div>
     );
