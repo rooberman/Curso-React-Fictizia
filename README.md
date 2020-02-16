@@ -1,4 +1,4 @@
-Ejercios prácticos del curso React de Fictizia
+Ejercios prácticos del [curso React de Fictizia](https://github.com/zamarrowski/Curso-React-Redux).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
